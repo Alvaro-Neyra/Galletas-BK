@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Platypi', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+.contacto {
+    border-bottom: 5px solid #F2B05E;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    background-color: #731F17;
+    color: #F2B05E;
+}
+.contacto .correo {
+    padding: 0 3rem;
+}
+.logo {
+    background-color: #731F17;
+    color: #F2B05E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo img {
+    width: 600px;
+}
+.logo button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin: 2.4rem;
+    cursor: pointer;
+    background-color: #F2AA6B;
+    color: #731F17;
+    border-radius: 10px;
+    border: none;
+}
+.logo button:hover {
+    background-color: #f28d34;
+    transition: background-color 0.5s ease;
+}
+.identidad {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0c199;
+    color: #A65A2E;
+    border: 1px solid #731F17;
+}
+.identidad-info {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.identidad .identidad-image img {
+    padding: 2rem;
+    height: 110%;
+    width: 700px;
+    border-radius: 50px;
+}
+.identidad-color {
+    background-color: #F2AA6B;
+}
+.mision-color {
+    background-color: #f28d34;
+}
+.contacto {
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .form form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contacto .form form {
+    font-size: 2rem;
+}
+.contacto .form form input {
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #f0c199;
+    color: #f0c199;
+    background-color: initial;
+    outline: none;
+}
+.contacto .form form textarea {
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #f0c199;
+    color: #f0c199;
+    background-color: initial;
+    outline: none;
+}
+input::placeholder, textarea::placeholder {
+    color: #f0c199;
+}
+.mapa iframe {
+    border-radius: 10px;
+}
+.mapa iframe:hover, .identidad .identidad-image img:hover {
+    cursor: pointer;
+    transform: scale(105%);
+    transition: all 0.5s ease;
+}
+.submit {
+    background-color: #F2AA6B;
+    color: #731F17;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #f28d34;
+    transition: background-color 0.5s ease;
+}
+.cookies-footer {
+    background-color: #731F17;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
+}
+.cookies-footer i {
+    font-size: 3rem;
+    color: #F2AA6B;
+    cursor: pointer;
+}
+.cookies-footer i:hover {
+    color: #F2B05E;
+    transition: color 0.3s ease;
+}
+.cookies-footer p {
+    color: #F2AA6B;
+}
